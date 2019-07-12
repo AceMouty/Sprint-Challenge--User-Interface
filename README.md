@@ -34,13 +34,36 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+	Semantic HTML provides valuable meaning to your document. This makes it easier for not only other developers
+	to read but also gives more meaning to screen readers browsers and other applications that will
+	read over your HTML.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+	```display: block```: display block will cause an element to stretch across 100% of available screen width no matter the device. display: block also gives us access to 
+	adjust the width and height of an element.
+
+	```display:inline``: display inline will only take up the amount of width and height nessicary to display its content and will NOT run the enitre width of a page.
+	Also display inline will keep placing other inline elements next to one another. Lastly you CAN NOT change the width and height of an element that is ```display: inline```.
 
 3. What are the 4 areas of the box model?
 
+	- Content
+	- Padding
+	- Border
+	- Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+ The ```align-items: center``` property works on the ```cross-axis```
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows you to use a concept called branching. This allows individuals to create a seperate code base to safely work on away from the main code base an not affect the work
+of others. Once your code is ready you can check and safely merge your code back inot the main code base.
+
+Git also allows for version controlling that works like save points in code. If you were to merge in a new feature and it was to break the product you could easily 
+roll back your code to a previous stable working version. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
