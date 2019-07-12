@@ -152,6 +152,12 @@ p {
 	color: black;
 }
 
+/* Work Together Section */
+
+.work-together-section{
+	max-width: 100%;
+	margin: 50px 20px;
+}
 
 
 /* Footer */
