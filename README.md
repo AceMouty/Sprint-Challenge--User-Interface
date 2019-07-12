@@ -43,8 +43,8 @@ Edit this document to include your answers after each question. Make sure to lea
 	```display: block```: display block will cause an element to stretch across 100% of available screen width no matter the device. display: block also gives us access to 
 	adjust the width and height of an element.
 
-	```display:inline``: display inline will only take up the amount of width and height nessicary to display its content and will NOT run the enitre width of a page.
-	Also display inline will keep placing other inline elements next to one another. Lastly you CAN NOT change the width and height of an element that is ```display: inline```.
+	```display:inline``: display inline will only take up the amount of width and height nessicary to display its content and will NOT run the enitre width of a page if it doesnt have to.Also display inline will keep placing other inline elements next to one another. 
+	Lastly you CAN NOT change the width and height of an element that is ```display: inline```.
 
 3. What are the 4 areas of the box model?
 
@@ -55,7 +55,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
- The ```align-items: center``` property works on the ```cross-axis```
+ The ```align-items: center``` property works on the ```cross-axis```.
 
 5. Explain why git is valuable to a team of developers.
 
