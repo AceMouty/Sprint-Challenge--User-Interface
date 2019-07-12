@@ -1,0 +1,29 @@
+/* Stretch Goal: Introduce CSS animations to your site. */
+
+.sr{animation: slideRight 2.5s;}
+
+.sl{animation: slideLeft 2.5s;}
+
+.st{animation: slideTop 2.5s;}
+
+.sb{animation: slideBottom 2.5s;}
+
+@keyframes slideRight {
+  0%   {transform: translateX(-100px); opacity: 0;}
+  100% {opacity: 100;}
+}
+
+@keyframes slideLeft {
+  0% {transform: translateX(100px); opacity: 0;}
+  100% {opacity: 100;}
+}
+
+@keyframes slideTop{
+	0% {transform: translateY(-100px); opacity: 0;}
+  100% {opacity: 100;}
+}
+
+@keyframes slideBottom{
+	0% {transform: translateY(80px); opacity: 0;}
+  100% {opacity: 100;}
+}

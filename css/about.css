@@ -94,128 +94,94 @@ p {
 	color:black;
 }
 
-/* Home Image */
+/* About Image */
 
 .home-img{
 	margin: 40px 0px 15px 0px;
 }
 
-/* The Future & Past Text  */
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+/* About Text */
+
+.about-text{
+	padding: 0 1%;
+	padding-bottom: 20px;
+  border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
-    width: 48%;
-    padding: 0 1%;
-    padding-bottom: 20px;  
-}
-
-/* Boxes */
+/* Middle Content */
 
 .middle-content {
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
+.box{
+	width: 45%;
+	margin-top: 20px;
+	border-bottom: 1px dashed black;
 }
 
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.box:nth-child(3),
+.box:last-child{
+	margin-top: 50px;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.img-container{
+	margin-bottom: 10px;
 }
 
-/* Box Coloring */
-.middle-content .boxes .box-1{
-	background: teal;
+.img-container img{
+	max-width: 100%;
+	height: 100%;
 }
 
-.middle-content .boxes .box-2{
-	background-color: gold;
-}
-.middle-content .boxes .box-3{
-	background-color: cadetblue;
+.box p{
+	margin-bottom: 15px;
 }
 
-.middle-content .boxes .box-4{
-	background-color: coral;
+.box a{
+	text-decoration: none;
+	border: 2px solid black;
+	display: inline-block;
+	margin-bottom: 20px;
+	padding: 10px;
+	border-radius: 8px;
+	width: 40%;
+	text-align: center;
+	color: black;
 }
 
-.middle-content .boxes .box-5 {
-	background-color: crimson;
+.box a:hover{
+	color: white;
+	background: black;
 }
 
-.middle-content .boxes .box-6{
-	background-color: forestgreen;
+/* Work Together Section */
+
+.work-together-section{
+	max-width: 100%;
+	margin: 50px 20px;
 }
 
-.middle-content .boxes .box-7{
-	background-color: darkorchid;
-}
-
-.middle-content .boxes .box-8{
-	background-color: hotpink;
-}
-
-.middle-content .boxes .box-9{
-	background-color: indigo;
-}
-
-.middle-content .boxes .box-10{
-	background-color: dodgerblue;
-}
-
-/* That's No Moon Text */
-.bottom-content {
-    display: flex;
-    margin: 0 2% 20px;
-    justify-content: space-around;
-}
-
-.bottom-content .text-container {
-    padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
 
 /* Footer */
 
 footer {
-    width: 100%;
-    background: black;
+	width: 100%;
+	background: black;
 }
 
 footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 2%;
+	font-size: 14px;
 }
 
 footer nav a {
-    color: white;
-    text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
