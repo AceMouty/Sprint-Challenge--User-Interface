@@ -152,6 +152,11 @@ p {
 	color: black;
 }
 
+.box a:hover{
+	color: white;
+	background: black;
+}
+
 /* Work Together Section */
 
 .work-together-section{
